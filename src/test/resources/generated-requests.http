@@ -1,0 +1,18 @@
+###
+POST http://localhost:8080/api/v1/webdav/content/createFileWithContent
+Content-Type: application/json
+
+{
+  "filename": "test.txt",
+  "fileContent": "This is Sparta!"
+}
+
+###
+GET http://localhost:8080/api/v1/webdav/content/getContentFromFile?
+    filename=test.txt
+
+<> 2024-08-27T171519.200.txt
+<> 2024-08-27T171514.200.txt
+<> 2024-08-27T171511.200.txt
+<> 2024-08-27T171333.200.txt
+
